@@ -3,7 +3,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 
 app = Flask(__name__)
 
-VERSION = "v3"
+VERSION = "v4 Changed Form Github"
 
 # Prometheus metrics
 metrics = PrometheusMetrics(app)
